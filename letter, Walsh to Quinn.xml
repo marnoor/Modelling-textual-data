@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from James Joseph Walsh to John Quinn</title>
+            <author>James Joseph Walsh</author>
+            <editor>Maryam Noorbaha</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Ca' Foscari University, Department of Humanities</publisher>
+            <pubPlace>Venice</pubPlace>
+            <date when="2025-10-26"> 26 October 2025</date>
+            <availability status="free">
+               <p>It's an educational assignment, free to use</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <bibl>
+               <ref>https://letters1916.ie/item/6736</ref>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <repository>New York Public Library Manuscripts and Archives Division</repository>
+                  <collection>James Quinn Memorial Collection</collection>
+                  <idno>Box 7, f.4</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter">
+                     <supportDesc>
+                        <support>Paper</support>
+                        <extent>1 leaf, written on both sides</extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <typeDesc>
+                     <p> Written with typewriter with dark blue and black ink on white paper.</p> 
+                  </typeDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1923-06-29">29 June 1923</origDate>
+                     <origPlace>New York, US</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     
+     <profileDesc>
+        <langUsage>
+           <language ident="en">English</language>
+        </langUsage>
+        
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="#walsh">James Joseph Walsh</persName>
+              <placeName>110 West 74th Street, New York, US</placeName>
+              <date when="1923-06-29">29 June 1923</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="#quinn">John Quinn</persName>
+           </correspAction>
+        </correspDesc>
+        
+        <abstract>
+           <listOrg>
+              <org xml:id="SY">
+                 <orgName>Scotland Yard</orgName>
+                 <country>United Kingdom</country>
+                 <desc> London's Metropolitan Police, which is responsible for the security of the capital. </desc>
+              </org>
+           </listOrg>
+        </abstract>
+        
+        <particDesc> 
+           <listPerson>
+              <person xml:id="walsh">
+                 <persName>James Joseph Walsh</persName>
+                 <birth when="1865"/>
+                 <death when="1942"/>
+                 <occupation>Physician and author</occupation>
+                 <idno type="wikidata">Q6137015</idno>
+                 <note>Irish-American physician and author</note>
+              </person>
+              
+              <person xml:id="quinn">
+                 <persName>John Quinn</persName>
+                 <birth when="1870"/>
+                 <death when="1924"/>
+                 <occupation>Lawyer and art patron</occupation>
+                 <idno type="wikidata">Q1701486</idno>
+                 <note>Irish-American lawyer and collector</note>
+              </person>
+              
+              <person xml:id="casement">
+                 <persName>Sir Roger Casement</persName>
+                 <birth when="1864"/>
+                 <death when="1916"/>
+                 <occupation>Diplomat and Irish nationalist</occupation>
+                 <idno type="wikidata">Q311966</idno>
+                 <note>Irish nationalist and diplomat</note>
+              </person>
+              
+              <person xml:id="thomson">
+                 <persName>Basil Thomson</persName>
+                 <birth when="1861"/>
+                 <death when="1939"/>
+                 <occupation>Writer and intelligence officer</occupation>
+                 <idno type="wikidata">Q4867265</idno>
+                 <note>British colonial administrator and writer</note>
+              </person>
+              
+              <person xml:id="cochran">
+                 <persName>Burke Cochran</persName>
+                 <birth when="1854"/>
+                 <death when="1923"/>
+                 <occupation>Irish-American politician and attorney</occupation>
+                 <idno type="wikidata">Q1770728</idno>
+              </person>
+              
+              <person xml:id="devoy">
+                 <persName>John Devoy</persName>
+                 <birth when="1842"/>
+                 <death when="1928"/>
+                 <occupation>Journalist and revolutionary</occupation>
+                 <idno type="wikidata">Q2842956</idno>
+              </person>
+              
+              <person xml:id="cohalan">
+                 <persName>Judge Daniel F. Cohalan</persName>
+                 <birth when="1865"/>
+                 <death when="1946"/>
+                 <occupation>Judge and Irish-American nationalist</occupation>
+                 <idno type="wikidata">Q15997314</idno>
+              </person>
+              
+           </listPerson>
+        </particDesc>
+        
+        <settingDesc> 
+           
+           <listPlace>
+              
+              <place xml:id="NYC">
+                 <placeName>New York City</placeName>
+                 <country>United States</country>
+                 <idno type="wikidata">Q60</idno>
+              </place>
+              
+              <place xml:id="MSGarden">
+                 <placeName>Madison Square Garden</placeName>
+                 <country>United States</country>
+              </place>
+              
+              <place xml:id="London">
+                 <placeName>London</placeName>
+                 <country>United Kingdom</country>
+                 <idno type="wikidata">Q84</idno>
+              </place>
+              
+              
+           </listPlace>
+           
+        </settingDesc>
+     </profileDesc>
+     
+     <encodingDesc>
+        <projectDesc>
+           <p>This TEI file encodes a historical letter between James J. Walsh and John Quinn.</p>
+        </projectDesc>
+     </encodingDesc>
+  </teiHeader>
+   
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <address>
+                  <lb/><addrLine><persName ref="#walsh" type="sent">Jas. J. Walsh M.D.</persName></addrLine>
+                  <lb/><addrLine><placeName type="sent">110 West 74th Street</placeName></addrLine>
+                  <lb/><addrLine><placeName type="sent" ref="#NYC">New York</placeName></addrLine>
+               </address>
+               
+               <dateline>
+                  <lb/><date when="1923-06-29" type="sent">June 29, 1923</date>
+               </dateline>
+               
+               <salute>My dear <persName ref="#quinn">Mr. Quinn</persName>:-</salute>
+            </opener>
+            
+            <p n="1"><lb/>Not long after his death you and I saw 
+               <lb/>each other one of the rare times that I am sorry 
+               <lb/>to say we meet, for I wish it were oftener, I think 
+               <lb/>at <placeName ref="#MSGarden">Madison Square Garden</placeName>, in the midst of a talk 
+               <lb/>by the late <persName ref="#cochran">Burke Cocheran</persName>, God rest his soul, and 
+               <lb/>the conversation turned to <persName ref="#casement">Sir Roger Casement</persName>.</p>
+            
+            <p n="2"><lb/>I had not long before been shown some 
+               <lb/>manuscripts for my judgment on them as to public-
+               <lb/>ation. They were supposed to be diaries written 
+               <lb/>by <persName ref="#casement">Sir Roger</persName>.</p>
+            
+            <p n="3"><lb/>I have been looking for some reference 
+               <lb/>to them in English print since and at last I have 
+               <lb/>found it. <persName ref="#thomson">Basil Thomson</persName> in his volume <title level="m">My Experiences 
+               <lb/>at <orgName ref="#SY"></orgName>Scotland Yard</title> tells of finding the diaries in 
+               <lb/><persName ref="#casement">Sir Roger</persName>'s locked trunks taken from his <placeName ref="#London">London</placeName> 
+               <lb/>lodgings and he says of them: <quote>It is enough to say 
+               <lb/>of the diaries that they could not be printed in 
+               <lb/>any age or in any language.</quote></p>
+            
+            <p n="4"><lb/>I rather expect that sentence 
+               <lb/>will arouse attention and that we shall surely 
+               <lb/>hear more of the diaries before long. They are 
+               <lb/>evidently supposed to be in the archive of <orgName ref="#SY">Scotland 
+               <lb/>Yard</orgName>.</p>
+            
+            <p n="5"><lb/>A little later on page 102 he says: <quote>I 
+               <lb/>have made special inquiry with a view to ascertaining 
+            <pb/>
+               <lb/>how long <persName ref="#casement">Casement</persName> had been under the obsessions
+               <lb/>disclosed in his diary and I feel certain that they
+               <lb/>were of comparatively recent growth, not much before
+               <lb/>the year 1910. This would seem to show that some
+               <lb/>mental disintegration had begun to set in, though
+               <lb/>it was not sufficient to impair his judgment of
+               <lb/>right and wrong.</quote> That last clause is interesting
+               <lb/>as showing how confidently <orgName ref="#SY">Scotland Yard</orgName> can judge
+               <lb/>of little questions of insanity that might stop an
+               <lb/>expert.</p>
+               
+            <p n="6"><lb/>As you knew <persName ref="#casement">Sir Roger</persName> very well you will
+               <lb/>probably be interested in teh ten pages with regard
+               <lb/>to him and the preceding ten pages on the Germans
+               <lb/>and the Irish which begin with <persName ref="#devoy">John Devoy</persName> and <persName ref="#cohalan">Judge
+               <lb/>Cohalan</persName> and which are written so naively from the
+               <lb/>English standpoint.</p>
+               
+            <p n="7"><lb/>I hope that you are very well and that all goes
+               <lb/>well with you and I hope to see you sometime before
+               <lb/>very long.</p>
+            
+            <closer>
+               <salute>Yours very sincerely</salute>
+               <signed><persName ref="#walsh">Jas J Walsh</persName></signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
