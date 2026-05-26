@@ -1,0 +1,65 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [ {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -74.00597, 40.71427 ]
+    },
+    "properties" : {
+      "titles" : "New York City",
+      "annotations" : 1
+    },
+    "uris" : [ "http://sws.geonames.org/5128581" ],
+    "titles" : [ "New York City" ],
+    "names" : [ "Nueva York", "Big Apple", "New York City", "New York City", "نيويورك", "নিউ ইয়র্ক সিটি", "Νέα Υόρκη", "New York", "New York", "ニューヨーク", "Nova Iorque", "Нью-Йорк", "紐約市", "纽约", "Aebura", "マンハッタン", "न्यूयॉर्क", "New York", "Neu Jorck", "Nouvelle Yorck", "New Yorke", "New Yorc", "New Orange", "Kanón:no", "New Amsterdam", "Njujork", "New Yorku", "Kanono", "Nova Amsterda", "The Big Apple", "Neu Amsterdam", "Ga-no-no", "City of New York" ],
+    "source_gazetteers" : [ "http://www.geonames.org" ],
+    "quotes" : [ "New York City" ]
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -6.24889, 53.33306 ]
+    },
+    "properties" : {
+      "titles" : "Dublin",
+      "annotations" : 1
+    },
+    "uris" : [ "http://sws.geonames.org/2964574" ],
+    "titles" : [ "Dublin" ],
+    "names" : [ "Dublin", "Dublín", "Dublin", "دبلن", "Dublin", "Dublino", "ダブリン", "Dublin", "Дублин", "都柏林", "Δουβλίνο", "Dublin city", "ডাবলিন", "ਡਬਲਿਨ" ],
+    "source_gazetteers" : [ "http://www.geonames.org" ],
+    "quotes" : [ "Dublin" ]
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -9, 50 ]
+    },
+    "properties" : {
+      "titles" : "Ouergionios Okeanos",
+      "annotations" : 1
+    },
+    "uris" : [ "http://pleiades.stoa.org/places/79632" ],
+    "titles" : [ "Ouergionios Okeanos" ],
+    "names" : [ "Ouergionios Okeanos", "Celtic Sea" ],
+    "place_types" : [ "water-open" ],
+    "source_gazetteers" : [ "http://pleiades.stoa.org" ],
+    "quotes" : [ "south of Ireland" ]
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 126.36417, 7.87111 ]
+    },
+    "properties" : {
+      "titles" : "Boston",
+      "annotations" : 2
+    },
+    "uris" : [ "http://sws.geonames.org/1723862" ],
+    "titles" : [ "Boston" ],
+    "names" : [ "Boston" ],
+    "source_gazetteers" : [ "http://www.geonames.org" ],
+    "quotes" : [ "Boston", "Boston" ]
+  } ]
+}
