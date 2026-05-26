@@ -8,6 +8,6 @@ L_002: Letter from Alice Stopford Green to John Quinn, 27 August 1916
 - CSV / Dataset of letters and persons
 - Facsimiles of L_001, L_002
 - TEI version of L_001
-- Link to analyse lexical patterns with Voyant for L_001
+- Link to analyse lexical patterns with Voyant
 - Annotate entities with Recogito for L_001
 - Locations mentioned in L_001 / GeoJSON with Recogito
