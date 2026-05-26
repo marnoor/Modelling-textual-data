@@ -1,0 +1,10 @@
+Person_ID,Standard_Name,Alternative_Names,Date_Birth,Date_Death,Occupation/Affiliation/Organization,Gender,Wikidata_ID
+per_001,James Joseph Walsh,"Jas. J. Walsh M. D., James J. Walsh, Jas J Walsh",1865,1942,"Physician, author",M,Q6137015
+per_002,John Quinn,Mr. Quinn,1870,1924,"Lawyer, art patron",M,Q1701486
+per_003,Roger Casement,"Sir Roger Casement, Sir Roger",1864,1916,"Diplomat, Irish nationalist",M,Q311966
+per_004,Basil Thomson,,1861,1939,"Writer, intelligence officer",M,Q4867265
+per_005,Burke Cochran,,1854,1923,"politician, attorney",M,Q1770728
+per_006,Judge Daniel F. Cohalan,Judge Cohalan,1865,1946,"Judge, Irish-American nationalist",M,Q15997314
+per_007,John Devoy,,1842,1928,"Journalist, revolutionary",M,Q2842956
+per_008,Alice Stopford Green,Alice Stopford,1847,1929,"Irish nationalist historian, author",F,Q4726110
+per_009,Richard W. Hale,,,,,M,
